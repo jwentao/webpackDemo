@@ -1,0 +1,12 @@
+// 有.babelrc文件时，babel就会从这个文件读取配置
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions"] // target中指定编译后兼容的版本
+        // chrome: '52' // 直接指定为某个浏览器版本
+      }
+    }]
+  ],
+  "plugins": ["@babel/transform-runtime"]
+}
