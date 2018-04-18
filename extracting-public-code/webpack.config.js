@@ -35,11 +35,11 @@ module.exports = {
 
 		// 将第三方引用包和webpack生成的代码也区分开，新建两个插件，命名成不同的名字
 		new webpack.optimize.CommonsChunkPlugin({
-			names: [ 'vender', 'manifest'], // 使用names效果等同于下面分开写的写法
+			names: [ 'vendor', 'manifest'], // 使用names效果等同于下面分开写的写法
 			minChunks: Infinity
 		})
 		// new webpack.optimize.CommonsChunkPlugin({
-		// 	name: 'vender',
+		// 	name: 'vendor',
 		// 	minChunks: Infinity
 		// }),
 		// new webpack.optimize.CommonsChunkPlugin({
