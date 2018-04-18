@@ -1,0 +1,14 @@
+{
+  "name": "code-division-lazyload",
+  "version": "1.0.0",
+  "description": "代码分割和懒加载",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
+}
