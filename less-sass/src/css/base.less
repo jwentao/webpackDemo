@@ -1,0 +1,12 @@
+html {
+    background-color: red;
+}
+
+.box {
+    /*从common.css引入一个样式*/
+    composes: bigBox from 'common.less';
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background: red;
+}
