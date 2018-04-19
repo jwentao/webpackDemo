@@ -557,8 +557,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 // 使用useable
-// import base from './css/base.css'
-// import common from './css/common.css'
+// import base from './css/base.less'
+// import common from './css/common.less'
 
 // let flag = false;
 // setInterval(function () {
@@ -594,8 +594,8 @@ var update = __webpack_require__(2)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./base.css", function() {
-		var newContent = require("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./base.css");
+	module.hot.accept("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./base.less", function() {
+		var newContent = require("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./base.less");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -753,8 +753,8 @@ var update = __webpack_require__(2)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./common.css", function() {
-		var newContent = require("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./common.css");
+	module.hot.accept("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./common.less", function() {
+		var newContent = require("!!../../node_modules/_css-loader@0.28.11@css-loader/index.js!./common.less");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
